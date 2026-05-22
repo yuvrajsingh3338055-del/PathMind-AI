@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+PyPDF2
+google-generativeai
+python-dotenv
+streamlit-option-menu
+reportlab
