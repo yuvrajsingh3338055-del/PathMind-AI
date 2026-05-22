@@ -1,0 +1,114 @@
+body {
+
+    background: #0f172a;
+
+    color: white;
+}
+
+
+/* MAIN APP */
+
+.stApp {
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #111827,
+        #1e293b
+    );
+
+    color: white;
+}
+
+
+/* SIDEBAR */
+
+section[data-testid="stSidebar"] {
+
+    background: rgba(15,23,42,0.95);
+
+    border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+
+/* GLASS CARD */
+
+.glass-card {
+
+    background: rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 24px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+
+/* BUTTON */
+
+.stButton button {
+
+    width: 100%;
+
+    border-radius: 14px;
+
+    background: linear-gradient(
+        135deg,
+        #00f5ff,
+        #3b82f6
+    );
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.stButton button:hover {
+
+    transform: scale(1.03);
+
+    box-shadow: 0 0 20px rgba(0,245,255,0.5);
+}
+
+
+/* METRIC CARDS */
+
+[data-testid="metric-container"] {
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    padding: 20px;
+
+    border-radius: 20px;
+}
+
+
+/* INPUTS */
+
+.stTextInput input,
+.stTextArea textarea {
+
+    background: rgba(255,255,255,0.05);
+
+    color: white;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+}
